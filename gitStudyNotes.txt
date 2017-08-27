@@ -72,3 +72,5 @@ git merge dev
  git stash list : 查看stash中的工作
  git stash pop : 恢复stash中的内容并删除
  
+//创建远程仓库origin中的某个分支dev 
+git checkout -b dev origin/dev
