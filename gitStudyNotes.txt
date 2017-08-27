@@ -53,3 +53,7 @@ git merge dev
 
 //删除分支dev
 	git branch -d dev
+	
+// 解决冲突
+	// 查看log 使用 --graph
+	 git log --graph --pretty=oneline --abbrev-commit > commit_log.txt
