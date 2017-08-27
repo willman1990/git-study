@@ -1,3 +1,5 @@
 # git-study
 for study git
-create a new branch feature
+
+创建新分支feature 联系解决冲突
+

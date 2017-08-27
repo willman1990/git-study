@@ -51,3 +51,5 @@ git rm filename : 从版本库中删除文件
 git checkout master : //切换到主分支
 git merge dev
 
+//删除分支dev
+	git branch -d dev
