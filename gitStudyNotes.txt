@@ -5,3 +5,5 @@ git add 文件名 ：将文件添加到本地仓
 git staus ：查看本次更改
 git commit -m "对本次提交的说明"
 
+git diff +filename ：查看与上次的不同
+
