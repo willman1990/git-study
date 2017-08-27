@@ -33,3 +33,7 @@ git checkout --filename : 把filename文件在工作区的修改撤销或者将�
 
 git rm filename : 从版本库中删除文件
 	然后 git commit -m "xxx"
+
+//提交本地仓代码到github远程仓库
+git remote add origin https://github.com/willman1990/git-study.git
+git push -u origin master
