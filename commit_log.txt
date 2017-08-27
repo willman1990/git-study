@@ -15,3 +15,27 @@
 * bc183d2 append diff description
 * 32a911c add command git diff
 * 13ccc1c git 初始化本地库到commit 提交代码
+*   d7372ae merge with no-ff test
+|\  
+| * 352b4a0 commit at dev_branch
+| * 55a6136 add merge at branch dev :
+|/  
+* 5548f5f view log with --graph for conflict fixed
+* dd2bdd8 add file commit_logg
+*   2741839 conflict fixed
+|\  
+| * 2355f07 commit modify at branch feature
+* | 8ce1d24 commit at master for create new branch test
+|/  
+* ab17751 create branch and merge to master
+* 9f2b881 branch test
+* a10afd1 Create README.md
+* 124a586 append explanatory note
+* ebcd7d6 push origin with master version2
+* 4e042b9 push origin with master
+* 6cbf21b push origin to master
+* e1ee6c7 git rm command remove from git repository
+* 95e078d discard changes of workplace
+* bc183d2 append diff description
+* 32a911c add command git diff
+* 13ccc1c git 初始化本地库到commit 提交代码
