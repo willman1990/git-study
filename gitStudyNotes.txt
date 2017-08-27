@@ -35,6 +35,8 @@ git rm filename : 从版本库中删除文件
 	然后 git commit -m "xxx"
 
 //提交本地仓代码到github远程仓库
-git remote add origin https://github.com/willman1990/git-study.git
+	//关联本地仓与远程仓
+	git remote add origin https://github.com/willman1990/git-study.git
  or git remote add origin git@github.com:willman1990/git-study.git
-git push -u origin master
+	//push到远程仓库
+	git push -u origin master
