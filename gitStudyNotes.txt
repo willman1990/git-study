@@ -7,3 +7,26 @@ git commit -m "对本次提交的说明"
 
 git diff +filename ：查看本次修改与上次的不同，在commit前使用
 
+git log ：显示最近的更改日志
+	git log --pretty=oneline : 每行显示一条数据
+	
+git reset --hard HEAD~[num] : 回退到前面第几个版本
+git reflog : 用于回退后又后悔的情况，重新回到回退版本前的状态
+	//然后使用下面命令删除红色记录就可以恢复
+	git reset --hard [版本号]
+
+版本库（Repository）
+
+工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+	Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，
+还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+
+前面讲了我们把文件往Git版本库里添加的时候，是分两步执行的：
+	第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
+	第二步是用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
+
+// 丢弃工作区的修改	
+git checkout --filename : 把filename文件在工作区的修改撤销或者将已经添加
+	到暂存区的最近一次修改回退，即让这个文件回到最近一次git commit 或者 git add 时的状态。
+	git checkout branch ：切换到另一个分支
+	ps : git reset HEAD file ：可以把暂存区的修改撤销，重新放回工作区。
